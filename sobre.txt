@@ -1,0 +1,48 @@
+Algoritmo RotinaMatinal
+Var
+    horaAtual: Texto
+    continuar: Caractere
+
+Inicio
+    Escreva("Bem-vindo à sua rotina matinal!")
+    
+    Repita
+
+        Escreva("Passo 1: Acorde quando seu despertador tocar.")
+        Leia(continuar)
+
+        Escreva("Passo 2: Levante-se da cama e alonga-se por alguns minutos .")
+        Leia(continuar)
+
+        Escreva("Passo 3: Vá ao banheiro para higiene matinal.")
+        Leia(continuar)
+
+        Escreva("Passo 4: Escove os dentes e lave o rosto.")
+        Leia(continuar)
+
+        Escreva("Passo 5: Tome um banho e seque-se.")
+        Leia(continuar)
+
+        Escreva("Passo 6: Vista suas roupas para o dia.")
+        Leia(continuar)
+
+        Escreva("Passo 7: Faça o café da manhã ou tome o café já preparado neste tempo verfique emails e etc.")
+        Leia(continuar)
+
+        Escreva("Passo 8: Coma o café da manhã para se alimentar.")
+        Leia(continuar)
+
+        Escreva("Passo 9: Reúna seus pertences, como bolsa ou mochila, chaves, etc.")
+        Leia(continuar)
+
+        Escreva("Passo 10: Saia de casa para o trabalho ou outras atividades do dia.")
+        Leia(continuar)
+
+        Escreva("Deseja repetir sua rotina matinal? (S/N)")
+        Leia(continuar)
+
+    Enquanto continuar = "S"
+
+    Escreva("Tenha um ótimo dia!")
+Fim
+
